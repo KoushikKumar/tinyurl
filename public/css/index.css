@@ -1,0 +1,119 @@
+#urlInput{
+  height: 34px;
+}
+
+#submitButton{
+  margin-top:-2px;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+.inputLongUrl{
+  margin-top: 225px;
+  margin-left: 50px;
+}
+
+#invalidUrl{
+  color:red;
+  margin-bottom: 0;
+  visibility: hidden;
+}
+
+#longUrl {
+  margin-top: 250px;
+  margin-left: 50px;
+  -webkit-transition: margin linear 2s;
+  -o-transition:margin linear 2s;
+  -moz-transition: margin linear 2s;
+  transition: margin linear 2s;
+}
+
+#tinyUrl {
+  margin-top: 225px;
+  position: absolute;
+  visibility: hidden;
+}
+
+
+.closeDoorDiv {
+  width: 200px;
+  height: 400px;
+  margin-top: 50px;
+  float: right;
+  margin-right: -30px;
+  padding-right: 0px;
+}
+
+
+.openDoorDiv {
+  width: 100px;
+  height: 200px;
+  margin-top: 150px;
+  float: left;
+  /*margin-left: 0px;*/
+  padding-left: 0px;
+}
+
+.openDoor-open {
+  width: 100px;
+  height: 200px;
+  -webkit-transition: 1s transform linear;
+  -moz-transition: 1s transform linear;
+  -o-transition: 1s transform linear;
+  transition: 1s transform linear;
+  -webkit-transform-origin: left;
+  -ms-transform-origin: left;
+  -o-transform-origin: left;
+  -moz-transform-origin: left;
+  transform-origin: left;
+}
+
+.openDoor-close {
+  -webkit-transform: rotateY(-90deg);
+  -ms-transform: rotateY(-90deg);
+  -o-transform: rotateY(-90deg);
+  -moz-transform: rotateY(-90deg);
+  transform: rotateY(-90deg);
+}
+
+.closeDoor-open {
+  width: 200px;
+  height: 400px;
+  -webkit-transition: 1s transform linear;
+  -o-transition: 1s transform linear;
+  -moz-transition: 1s transform linear;
+  transition: 1s transform linear;
+  -webkit-transform-origin: right;
+  -ms-transform-origin: right;
+  -o-transform-origin: right;
+  -moz-transform-origin: right;
+  transform-origin: right;
+}
+
+.closeDoor-close {
+  -webkit-transform: rotateY(-90deg);
+  -ms-transform: rotateY(-90deg);
+  -o-transform: rotateY(-90deg);
+  -moz-transform: rotateY(-90deg);
+  transform: rotateY(-90deg);
+}
+
+#resetButton{
+  width:100%;
+  margin:50px auto 10px auto;
+  visibility: hidden;
+}

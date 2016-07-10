@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="/public/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="/public/css/index.css" rel="stylesheet" type="text/css">
+        
+    </head>
+    <body>
+        <div class="row">
+          <div class="col-xs-3">
+            <div class="inputLongUrl">
+            <p id="invalidUrl">Invalid URL</p>
+            <input id = 'urlInput' type="text" name="urlInput" placeholder="Enter Longggg URL"/>
+            <input class="btn btn-primary" id="submitButton" type="button" value="Generate"/>
+            </div>
+            <p id="longUrl"></p>
+          </div>
+          <div class="col-xs-3">
+            <div class="closeDoorDiv">
+              <img class="closeDoor-open" src="http://res.cloudinary.com/koushik/image/upload/v1468058181/door_svzqq0.png">
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <a id="hrefTinyUrl" href="" target="_blank"><p id="tinyUrl"></p></a>
+          </div>
+          <div class="col-xs-3">
+            <div class="openDoorDiv">
+              <img class="openDoor-open openDoor-close" src="http://res.cloudinary.com/koushik/image/upload/v1468059266/door_mirror_ivp8at.jpg">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <input class="btn btn-default" id="resetButton" type="button" value="Generate Again"/>
+        </div>
+        <script type="text/javascript" src="/public/js/jquery-2.2.4.min.js"></script>
+        <script type="text/javascript" src="/public/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/public/js/main.js"></script>
+    </body>
+</html>
