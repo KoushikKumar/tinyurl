@@ -2,7 +2,7 @@
 $("document").ready(function(){
     
     
-   var apiUrl = "http://tinyurlanim-koushikkumarv.c9users.io/"
+   var apiUrl = "http://atomicurl.herokuapp.com/"
    
     function ajaxRequest (method, url, callback) {
       var xmlhttp = new XMLHttpRequest();

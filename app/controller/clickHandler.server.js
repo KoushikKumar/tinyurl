@@ -1,6 +1,6 @@
 'use strict';
 
-var apiUrl = "http://tinyurlanim-koushikkumarv.c9users.io/";
+var apiUrl = "http://atomicurl.herokuapp.com/";
 function clickHandler(db){
     var urls = db.collection('urls');
     
